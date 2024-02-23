@@ -1,0 +1,118 @@
+body{
+    background-color: white;
+}
+
+.topContainer{
+    display: flex;
+    border: solid blue ;
+    padding: 1em;
+    /*height: 42vh;*/
+    margin: 1em;
+}
+.midContainer{
+    border: solid rgba(0, 98, 128, 0.753) ;
+    /*border-radius: 30%;*/
+    height: 42vh;
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lowContainer{
+    border: solid purple ;
+    
+    height: 42vh;
+    margin: 1em;
+}
+.phaseContainer{
+    border:  solid black;
+    border-width: .2px;
+   
+   
+}
+.phase{
+    
+   display: flex;
+    padding: 1em;
+}
+.phase:hover{
+    background-color: lightblue;
+    border: solid blue;
+    transition: .3s;
+    display: flex;
+     padding: 1em;
+ }
+.pTitle{
+   
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.description{
+
+padding: 12px;
+width: 50%;
+text-align: right;
+}
+.topTitle{
+    text-align: center;
+    margin: 1em ;
+    margin-top: 8%;
+}
+.attnBtn{
+   
+    
+    height: 30px;
+    margin: .5em;
+    text-align: center;
+    width: 100%;
+    border-radius: 22px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.774);
+    color: rgb(255, 251, 0);
+    cursor: pointer;
+}
+.attnBtn:hover{
+    
+    height: 30px;
+    margin: .5em;
+    text-align: center;
+    width: 100%;
+    border-radius: 22px;
+    font-size: 18px;
+    background-color: rgb(0, 128, 85);
+    color: white;
+}
+.NAOAContainer{
+   
+}
+.midTitle{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em; 
+    margin: 3em;
+}
+.lowTitle{
+margin: 10vh;
+   text-align: center;
+}
+.resultContainer{
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-left: 15em;
+    margin-right: 15em;
+    
+}
+
+
+.result{
+   border: solid rgba(0, 174, 255, 0.493);
+   border-radius: 100%;
+   padding: 1em;
+    color: rgb(42, 91, 165);
+    font-size: 17px;
+    text-align: center;
+}
